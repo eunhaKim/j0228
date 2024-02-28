@@ -8,7 +8,7 @@ public class Test7 {
 		
 		while( i < 9 ) {
 			i++;
-			s = s*(-1);
+			s = s * (-1);
 			tot = tot + s*i/(i+1);			
 		}
 		System.out.println("-1/2 + 2/3 - 3/4 + 4/5 ... 9/10 = ? " + tot);
